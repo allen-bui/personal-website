@@ -66,7 +66,7 @@ function welcome() {
       <h1 className='welcome-text'>
         Hi, my name is <span className='real-name'>Allen Bui</span>.
       </h1>
-      <h1>
+      <h1 className='welcome-text'>
         I'm a
         <span
           className='txt-rotate'
@@ -74,7 +74,7 @@ function welcome() {
           data-rotate='[ " software engineer.", " designer.", " photographer." ]'
         ></span>
       </h1>
-      <h3>View my work</h3>
+      <h3 className='view-work-button'>View my work</h3>
     </div>
   );
 }

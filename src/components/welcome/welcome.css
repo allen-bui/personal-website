@@ -1,4 +1,12 @@
-h1 {
+.welcome {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.welcome-text {
   font-family: 'Raleway', sans-serif;
   background: #fff;
   color: #aaa;
@@ -8,7 +16,7 @@ h1 {
   font-size: 3.5em;
 }
 
-h3 {
+.view-work-button {
   font-family: 'Raleway', sans-serif;
   background: #fff;
   color: #aaa;
@@ -19,12 +27,13 @@ h3 {
   border: 1px solid black;
   padding: 0.5em 0.25em;
   width: 8em;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
 }
 
 .real-name {
   color: steelblue;
   font-weight: 300;
-}
-
-.welcome {
 }
