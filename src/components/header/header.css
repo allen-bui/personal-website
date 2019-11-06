@@ -1,3 +1,12 @@
-.title-headers {
+.navigation-title-headers {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #aaa;
+  font-weight: 500;
   margin: 20px;
+  border-spacing: 20;
+}
+
+.navigation-title {
+  padding: 20px;
 }

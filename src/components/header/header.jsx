@@ -3,12 +3,13 @@ import './header.css';
 
 const Header = () => {
   return (
-    <table className='title-headers'>
-      <thead className='title-headers'>
-        <td className='title-headers'>Home</td>
-        <td>Portfolio</td>
-        <td>Resume</td>
-        <td>About Me</td>
+    <table className='navigation-title-headers'>
+      <thead>
+        <td className='navigation-title'>Home</td>
+        <td className='navigation-title'>About Me</td>
+        <td className='navigation-title'>Portfolio</td>
+        <td className='navigation-title'>Contact</td>
+        <td className='navigation-title'>Resume</td>
       </thead>
     </table>
   );

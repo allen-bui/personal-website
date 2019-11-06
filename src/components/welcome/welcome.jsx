@@ -1,5 +1,5 @@
 import React from 'react';
-import './welcome.css'
+import './welcome.css';
 
 let TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -74,9 +74,44 @@ function welcome() {
           data-rotate='[ " software engineer.", " designer.", " photographer." ]'
         ></span>
       </h1>
-      <h3 className='view-work-button'>View my work</h3>
+      <ViewWork/>
     </div>
   );
+}
+
+class ViewWork extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isHoverOver: false,
+    };
+    this.onUserHover = this.onUserHover.bind(this);
+  }
+
+  onUserHover() {
+    this.setState({
+      isHoverOver: !this.state.isHoverOver,
+    });
+  }
+
+  render() {
+    const style = {
+      backgroundColor: this.state.isHoverOver ? '#000' : '#fff',
+      fontWeight: this.state.isHoverOver ? '300' : '100',
+      color: this.state.isHoverOver ? '#fff' : '#aaa',
+      cursor: this.state.isHoverOver ? 'pointer' : 'default',
+    }
+    return (
+      <h3
+        style={style}
+        className='view-work-button'
+        onMouseEnter={this.onUserHover}
+        onMouseLeave={this.onUserHover}
+      >
+        View my work
+      </h3>
+    );
+  }
 }
 
 export default welcome;
