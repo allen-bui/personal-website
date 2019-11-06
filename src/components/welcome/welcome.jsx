@@ -1,5 +1,6 @@
 import React from 'react';
 import './welcome.css';
+import Header from './../header/header.jsx';
 
 let TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -62,19 +63,22 @@ window.onload = function() {
 
 function welcome() {
   return (
-    <div className='welcome'>
-      <h1 className='welcome-text'>
-        Hi, my name is <span className='real-name'>Allen Bui</span>.
-      </h1>
-      <h1 className='welcome-text'>
-        I'm a
-        <span
-          className='txt-rotate'
-          data-period='2000'
-          data-rotate='[ " software engineer.", " designer.", " photographer." ]'
-        ></span>
-      </h1>
-      <ViewWork/>
+    <div className='welcome-background'>
+      <Header/>
+      <div className='welcome'>
+        <h1 className='welcome-text'>
+          Hi, my name is <span className='real-name'>Allen Bui</span>.
+        </h1>
+        <h1 className='welcome-text'>
+          I'm a
+          <span
+            className='txt-rotate'
+            data-period='2000'
+            data-rotate='[ " software engineer.", " designer.", " photographer." ]'
+          ></span>
+        </h1>
+        <ViewWork />
+      </div>
     </div>
   );
 }
@@ -100,7 +104,7 @@ class ViewWork extends React.Component {
       fontWeight: this.state.isHoverOver ? '400' : '100',
       color: this.state.isHoverOver ? '#fff' : '#000',
       cursor: this.state.isHoverOver ? 'pointer' : 'default',
-    }
+    };
     return (
       <h3
         style={style}
