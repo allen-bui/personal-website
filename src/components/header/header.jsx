@@ -33,7 +33,8 @@ class SingleHeader extends React.Component {
   render() {
     const style = {
       cursor: this.state.isHoverOver ? 'pointer' : 'default',
-      borderBottom: this.state.isHoverOver ? '2px solid steelblue' : 'none',
+      borderBottom: this.state.isHoverOver ? '2px solid white' : 'none',
+      fontWeight: this.state.isHoverOver ? '800' : '500'
     };
     return (
       <td
