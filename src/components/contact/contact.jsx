@@ -5,10 +5,10 @@ import './contact.css';
 const Contact = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <div>need to work on contact here</div>
     </div>
-  )
-}
+  );
+};
 
 export default Contact;

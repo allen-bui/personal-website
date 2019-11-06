@@ -5,10 +5,10 @@ import './resume.css';
 const Resume = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <div>need to work on resume here</div>
     </div>
-  )
-}
+  );
+};
 
 export default Resume;

@@ -45,42 +45,49 @@ TxtRotate.prototype.tick = function() {
   }, delta);
 };
 
-window.onload = function() {
-  let elements = document.getElementsByClassName('txt-rotate');
-  for (let i = 0; i < elements.length; i++) {
-    let toRotate = elements[i].getAttribute('data-rotate');
-    let period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
+class Welcome extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
   }
-  // INJECT CSS
-  let css = document.createElement('style');
-  css.type = 'text/css';
-  css.innerHTML = '.txt-rotate > .wrap { border-right: 0.08em solid #fff }';
-  document.body.appendChild(css);
-};
 
-function welcome() {
-  return (
-    <div className='welcome-background'>
-      <Header/>
-      <div className='welcome'>
-        <h1 className='welcome-text'>
-          Hi, my name is <span className='real-name'>Allen Bui</span>.
-        </h1>
-        <h1 className='welcome-text'>
-          I'm a
-          <span
-            className='txt-rotate'
-            data-period='2000'
-            data-rotate='[ " software engineer.", " designer.", " photographer." ]'
-          ></span>
-        </h1>
-        <ViewWork />
+  componentDidMount() {
+    let elements = document.getElementsByClassName('txt-rotate');
+    for (let i = 0; i < elements.length; i++) {
+      let toRotate = elements[i].getAttribute('data-rotate');
+      let period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtRotate(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    let css = document.createElement('style');
+    css.type = 'text/css';
+    css.innerHTML = '.txt-rotate > .wrap { border-right: 0.08em solid #fff }';
+    document.body.appendChild(css);
+  }
+
+  render() {
+    return (
+      <div className='welcome-background'>
+        <Header />
+        <div className='welcome'>
+          <h1 className='welcome-text'>
+            Hi, my name is <span className='real-name'>Allen Bui</span>.
+          </h1>
+          <h1 className='welcome-text'>
+            I'm a
+            <span
+              className='txt-rotate'
+              data-period='2000'
+              data-rotate='[ " software engineer.", " designer.", " photographer." ]'
+            ></span>
+          </h1>
+          <ViewWork />
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 class ViewWork extends React.Component {
@@ -118,4 +125,4 @@ class ViewWork extends React.Component {
   }
 }
 
-export default welcome;
+export default Welcome;

@@ -5,10 +5,10 @@ import './portfolio.css';
 const Portfolio = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <div>need to work on portfolio here</div>
     </div>
-  )
-}
+  );
+};
 
 export default Portfolio;
