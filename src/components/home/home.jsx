@@ -1,5 +1,5 @@
 import React from 'react';
-import './welcome.css';
+import './home.css';
 import Header from './../header/header.jsx';
 
 let TxtRotate = function(el, toRotate, period) {
