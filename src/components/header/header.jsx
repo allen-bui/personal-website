@@ -69,7 +69,7 @@ class SingleHeader extends React.Component {
 
     const linkStyle = {
       textDecoration: 'none',
-      color: '#000',
+      color: '#fff',
     };
 
     return (
