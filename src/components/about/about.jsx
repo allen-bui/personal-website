@@ -57,6 +57,11 @@ const About = () => {
                 className='contact-icon'
               />
               <img
+                src='https://image.flaticon.com/icons/svg/25/25657.svg'
+                alt='github'
+                className='contact-icon'
+              />
+              <img
                 src='https://image.flaticon.com/icons/svg/174/174876.svg'
                 alt='twitter'
                 className='contact-icon'
