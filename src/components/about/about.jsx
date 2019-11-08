@@ -51,26 +51,34 @@ const About = () => {
               <div className='contact-text'>CONTACT</div>
             </div>
             <div className='contact-button'>
-              <img
-                src='https://image.flaticon.com/icons/svg/174/174857.svg'
-                alt='linkedin'
-                className='contact-icon'
-              />
-              <img
-                src='https://image.flaticon.com/icons/svg/25/25657.svg'
-                alt='github'
-                className='contact-icon'
-              />
-              <img
-                src='https://image.flaticon.com/icons/svg/174/174876.svg'
-                alt='twitter'
-                className='contact-icon'
-              />
-              <img
-                src='https://image.flaticon.com/icons/svg/174/174855.svg'
-                alt='instagram'
-                className='contact-icon'
-              />
+              <a href='https://www.linkedin/com/in/allenvbui'>
+                <img
+                  src='https://image.flaticon.com/icons/png/512/174/174857.png'
+                  alt='linkedin'
+                  className='contact-icon'
+                />
+              </a>
+              <a href='https://github.com/allen-bui'>
+                <img
+                  src='https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-512.png'
+                  alt='github'
+                  className='contact-icon'
+                />
+              </a>
+              <a href='https://twitter.com'>
+                <img
+                  src='https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-512.png'
+                  alt='twitter'
+                  className='contact-icon'
+                />
+              </a>
+              <a href='https://www.instagram.com/allen.bui/'>
+                <img
+                  src='https://www.freepngimg.com/thumb/logo/62773-blog-logo-computer-instagram-icons-free-clipart-hd.png'
+                  alt='instagram'
+                  className='contact-icon'
+                />
+              </a>
             </div>
           </div>
         </div>

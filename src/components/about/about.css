@@ -39,7 +39,7 @@
 
 .contact-box > .contact-button {
   height: 100%;
-	width: 30%;
+	width: 35%;
   display: flex;
   justify-content: center;
 	align-items: center;
@@ -47,15 +47,15 @@
 	/* border: 2px solid red; */
 }
 
-.contact-box > .contact-button > .contact-icon {
+.contact-box > .contact-button > a > .contact-icon {
   height: 100%;
-	width: 15%;
+	width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
 	cursor: pointer;
 	/* border: 2px solid green; */
-	margin: 0% 7%;
+	margin: 0% 10%;
 }
 
 .contact-box > .contact-button > .contact-text {
