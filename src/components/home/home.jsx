@@ -48,7 +48,6 @@ TxtRotate.prototype.tick = function() {
 class Welcome extends React.Component {
   constructor() {
     super();
-    this.state = {};
   }
 
   componentDidMount() {
@@ -60,7 +59,8 @@ class Welcome extends React.Component {
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
       }
     }
-    // INJECT CSS
+
+    // Inject CSS
     let css = document.createElement('style');
     css.type = 'text/css';
     css.innerHTML = '.txt-rotate > .wrap { border-right: 0.08em solid #fff }';
