@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div className='text-block'>
           <div className='position-title'>SOFTWARE ENGINEER</div>
-          <br/>
+          <br />
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec
@@ -45,13 +45,27 @@ const About = () => {
             faucibus et molestie ac feugiat sed lectus vestibulum. Tristique
             senectus et netus et malesuada fames ac turpis egestas.
           </div>
-          <br/>
+          <br />
           <div className='contact-box'>
-            <div className='contact-button'>CONTACT</div>
             <div className='contact-button'>
-              <img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="" className='contact-icon'/>
-              <img src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="" className='contact-icon'/>
-              <img src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="" className='contact-icon'/>
+              <div className='contact-text'>CONTACT</div>
+            </div>
+            <div className='contact-button'>
+              <img
+                src='https://image.flaticon.com/icons/svg/174/174857.svg'
+                alt='linkedin'
+                className='contact-icon'
+              />
+              <img
+                src='https://image.flaticon.com/icons/svg/174/174876.svg'
+                alt='twitter'
+                className='contact-icon'
+              />
+              <img
+                src='https://image.flaticon.com/icons/svg/174/174855.svg'
+                alt='instagram'
+                className='contact-icon'
+              />
             </div>
           </div>
         </div>
