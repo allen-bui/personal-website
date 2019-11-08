@@ -9,11 +9,6 @@ const pages = [
     linkStyle: { textDecoration: 'none', color: '#000' },
   },
   {
-    title: 'Contact',
-    alias: '/contact',
-    linkStyle: { textDecoration: 'none', color: '#000' },
-  },
-  {
     title: 'Portfolio',
     alias: '/portfolio',
     linkStyle: { textDecoration: 'none', color: '#000' },
