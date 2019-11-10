@@ -6,17 +6,13 @@ const Portfolio = () => {
   return (
     <div>
       <Header />
-      <div className='about-me-grid-container'>
+      <div className='portfolio-container'>
         <div>
-          <img
-            src='https://i.pinimg.com/originals/76/11/73/761173b79751f1f8a87681e676af7348.jpg'
-            className='my-photo'
-            alt=''
-          />
+          <div className='image-gallery'></div>
         </div>
         <div className='text-block'>
           <div className='position-title'>RECREATING AIRBNB</div>
-          <br/>
+          <br />
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec
@@ -48,10 +44,21 @@ const Portfolio = () => {
           <br />
           <div className='contact-box'>
             <div className='contact-button'>
-              <div className='contact-text'>CHECK IT OUT</div>
+              <a
+                href='https://airbnb-project-clone-allen-bui.netlify.com/'
+                className='checkout-button'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                CHECK IT OUT
+              </a>
             </div>
             <div className='contact-button'>
-              <a href='https://github.com/allen-bui'>
+              <a
+                href='https://github.com/allen-bui/airbnb-project-clone'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img
                   src='https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-512.png'
                   alt='github'
