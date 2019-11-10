@@ -5,7 +5,6 @@
   grid-template-columns: 40% 60%;
   column-gap: 2%;
   border-top: 1px solid #ccc;
-  /* border: 2px solid red; */
 }
 
 .text-block {
@@ -15,11 +14,9 @@
   margin: 10% 15%;
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 2px solid blue; */
 }
 
 .my-photo {
-  /* border: 2px solid green; */
   margin: 15%;
   width: 70%;
   height: 70%;
@@ -44,7 +41,6 @@
   justify-content: center;
   align-items: center;
   margin-right: 5%;
-  /* border: 2px solid red; */
 }
 
 .contact-box > .contact-button > a > .contact-icon {
@@ -54,7 +50,6 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  /* border: 2px solid green; */
   margin: 0% 10%;
 }
 

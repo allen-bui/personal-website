@@ -46,10 +46,6 @@ TxtRotate.prototype.tick = function() {
 };
 
 class Welcome extends React.Component {
-  constructor() {
-    super();
-  }
-
   componentDidMount() {
     let elements = document.getElementsByClassName('txt-rotate');
     for (let i = 0; i < elements.length; i++) {
