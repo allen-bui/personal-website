@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './../header/header.jsx';
+import Gallery from './gallery.jsx';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -8,7 +9,9 @@ const Portfolio = () => {
       <Header />
       <div className='portfolio-container'>
         <div>
-          <div className='image-gallery'></div>
+          <div className='image-gallery'>
+            <Gallery/>
+          </div>
         </div>
         <div className='text-block'>
           <div className='position-title'>RECREATING AIRBNB</div>
