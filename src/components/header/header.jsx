@@ -6,22 +6,18 @@ const pages = [
   {
     title: 'Resume',
     alias: '/resume',
-    linkStyle: { textDecoration: 'none', color: '#000' },
   },
   {
     title: 'Portfolio',
     alias: '/portfolio',
-    linkStyle: { textDecoration: 'none', color: '#000' },
   },
   {
     title: 'About Me',
     alias: '/about',
-    linkStyle: { textDecoration: 'none', color: '#000' },
   },
   {
     title: 'Home',
     alias: '/',
-    linkStyle: { textDecoration: 'none', color: '#fff' },
   },
 ];
 
@@ -59,21 +55,14 @@ class SingleHeader extends React.Component {
   render() {
     const style = {
       cursor: this.state.isHoverOver ? 'pointer' : 'default',
-      borderBottom: this.state.isHoverOver ? '2px solid white' : 'none',
+      borderBottom: this.state.isHoverOver ? '2px solid black' : 'none',
       fontWeight: this.state.isHoverOver ? '800' : '500',
     };
 
     const linkStyle = {
       textDecoration: 'none',
-      color: '#fff',
+      color: '#000',
     };
-
-    if (window.location.href.split('3000')[1] !== '/') {
-      linkStyle['color'] = '#000';
-      style['borderBottom'] = this.state.isHoverOver
-        ? '2px solid black'
-        : 'none';
-    }
 
     return (
       <div>

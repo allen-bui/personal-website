@@ -2,9 +2,10 @@
   width: 100%;
   height: 100vh;
   font-family: 'Exo', sans-serif;
-  background: linear-gradient(-45deg, #537895, #09203f, #1cb5e0, #09203f);
+  /* background: linear-gradient(-45deg, #537895, #09203f, #1cb5e0, #09203f); */
+  background: linear-gradient(-45deg, #fff, #86c8e6, #e6d486, #fff);
   background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  animation: gradientBG 30s ease infinite;
 }
 
 @keyframes gradientBG {
@@ -30,7 +31,8 @@
 .welcome-text {
   font-family: 'Raleway', sans-serif;
   background: transparent;
-  color: #fff;
+  color: #000;
+  /* color: #fff; */
   font-weight: 100;
   margin: 0.4em 0;
   text-align: center;
@@ -55,6 +57,7 @@
 }
 
 .real-name {
-  color: #fff;
+  color: #000;
+  /* color: #fff; */
   font-weight: 400;
 }

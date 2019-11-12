@@ -59,7 +59,7 @@ class Welcome extends React.Component {
     // Inject CSS
     let css = document.createElement('style');
     css.type = 'text/css';
-    css.innerHTML = '.txt-rotate > .wrap { border-right: 0.08em solid #fff }';
+    css.innerHTML = '.txt-rotate > .wrap { border-right: 0.08em solid #000 }';
     document.body.appendChild(css);
   }
 
