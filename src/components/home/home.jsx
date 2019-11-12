@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import Header from './../header/header.jsx';
+import ViewWork from './viewWork.jsx';
 
 let TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -82,41 +83,6 @@ class Welcome extends React.Component {
           <ViewWork />
         </div>
       </div>
-    );
-  }
-}
-
-class ViewWork extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      isHoverOver: false,
-    };
-    this.onUserHover = this.onUserHover.bind(this);
-  }
-
-  onUserHover() {
-    this.setState({
-      isHoverOver: !this.state.isHoverOver,
-    });
-  }
-
-  render() {
-    const style = {
-      backgroundColor: this.state.isHoverOver ? '#000' : '#fff',
-      fontWeight: this.state.isHoverOver ? '400' : '100',
-      color: this.state.isHoverOver ? '#fff' : '#000',
-      cursor: this.state.isHoverOver ? 'pointer' : 'default',
-    };
-    return (
-      <h3
-        style={style}
-        className='view-work-button'
-        onMouseEnter={this.onUserHover}
-        onMouseLeave={this.onUserHover}
-      >
-        View my work
-      </h3>
     );
   }
 }
