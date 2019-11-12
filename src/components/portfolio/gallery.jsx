@@ -1,13 +1,6 @@
 import React from 'react';
 import Carousel from 'react-images';
 
-const images = [
-  { src: 'https://imgur.com/dcZZdMU.gif' },
-  { src: 'https://imgur.com/7imSCpF.gif' },
-  { src: 'https://imgur.com/wUcNthk.gif' },
-  { src: 'https://imgur.com/yVwl6aZ.gif' },
-];
-
 const customStyles = {
   header: (base, state) => ({
     ...base,
@@ -44,10 +37,8 @@ const customStyles = {
   }),
 };
 
-class Gallery extends React.Component {
-  render() {
-    return <Carousel styles={customStyles} views={images} />;
-  }
+const Gallery = (props) => {
+  return <Carousel styles={customStyles} views={props.projectImages} />;
 }
 
 export default Gallery;
