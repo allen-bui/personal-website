@@ -45,8 +45,8 @@ const Portfolio = () => {
             senectus et netus et malesuada fames ac turpis egestas.
           </div>
           <br />
-          <div className='contact-box'>
-            <div className='contact-button'>
+          <div className='checkout-box'>
+            <div className='portfolio-button'>
               <a
                 href='https://airbnb-project-clone-allen-bui.netlify.com/'
                 className='checkout-button'
@@ -56,7 +56,7 @@ const Portfolio = () => {
                 CHECK IT OUT
               </a>
             </div>
-            <div className='contact-button'>
+            <div className='portfolio-button'>
               <a
                 href='https://github.com/allen-bui/airbnb-project-clone'
                 target='_blank'
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 <img
                   src='https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-512.png'
                   alt='github'
-                  className='contact-icons'
+                  className='checkout-icons'
                 />
               </a>
             </div>

@@ -29,13 +29,13 @@
   letter-spacing: 0.1em;
 }
 
-.contact-box {
+.checkout-box {
   width: 100%;
   height: 10%;
   display: flex;
 }
 
-.contact-box > .contact-button {
+.checkout-box > .portfolio-button {
   height: 100%;
   width: 35%;
   display: flex;
@@ -44,7 +44,7 @@
   margin-right: 5%;
 }
 
-.contact-box > .contact-button > a > .contact-icons {
+.checkout-box > .portfolio-button > a > .checkout-icons {
   height: 100%;
   width: 15%;
   display: flex;
@@ -54,7 +54,7 @@
   margin: 0% 2.5%;
 }
 
-.contact-box > .contact-button > .checkout-button {
+.checkout-box > .portfolio-button > .checkout-button {
   background-color: #000;
   color: #fff;
   letter-spacing: 0.1em;
