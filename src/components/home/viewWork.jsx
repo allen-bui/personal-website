@@ -19,7 +19,7 @@ export default class ViewWork extends React.Component {
   render() {
     const style = {
       backgroundColor: this.state.isHoverOver ? '#000' : '#fff',
-      fontWeight: this.state.isHoverOver ? '400' : '100',
+      fontWeight: this.state.isHoverOver ? '400' : '200',
       color: this.state.isHoverOver ? '#fff' : '#000',
       cursor: this.state.isHoverOver ? 'pointer' : 'default',
     };
