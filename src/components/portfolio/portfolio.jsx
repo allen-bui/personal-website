@@ -7,13 +7,22 @@ const Portfolio = () => {
   return (
     <div>
       <Header />
+      <div className='project-list-container'>
+        <div className='project-list-title'>
+          PROJECTS:
+          <select className='project-name'>
+            <option>Airbnb Clone</option>
+            <option>Amazon System Design</option>
+          </select>
+        </div>
+      </div>
       <div className='portfolio-container'>
         <div>
           <div className='image-gallery'>
-            <Gallery/>
+            <Gallery />
           </div>
         </div>
-        <div className='text-block'>
+        <div className='text-block-portfolio'>
           <div className='position-title'>RECREATING AIRBNB</div>
           <br />
           <div>
