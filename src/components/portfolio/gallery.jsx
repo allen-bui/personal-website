@@ -39,6 +39,6 @@ const customStyles = {
 
 const Gallery = (props) => {
   return <Carousel styles={customStyles} views={props.projectImages} />;
-}
+};
 
 export default Gallery;
