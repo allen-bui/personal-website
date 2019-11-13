@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import emailjs from 'emailjs-com';
 import './contact.css';
 
-const customStyles = {
+const modalCustomStyles = {
   content: {
     height: '30em',
     width: '25em',
@@ -26,10 +26,12 @@ export default class Contact extends React.Component {
     super();
     this.state = {
       isModalOpen: false,
+      isMouseOverSend: false,
     };
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.sendEmail = this.sendEmail.bind(this);
+    this.onUserMouseOver = this.onUserMouseOver.bind(this);
   }
 
   openModal() {
@@ -38,6 +40,10 @@ export default class Contact extends React.Component {
 
   closeModal() {
     this.setState({ isModalOpen: false });
+  }
+
+  onUserMouseOver() {
+    this.setState({ isMouseOverSend: !this.state.isMouseOverSend });
   }
 
   sendEmail(event) {
@@ -56,6 +62,10 @@ export default class Contact extends React.Component {
   }
 
   render() {
+    const sendCustomStyles = {
+      backgroundColor: this.state.isMouseOverSend ? '#21c4ff' : '#000',
+    };
+
     return (
       <div className='contact-button'>
         <button className='contact-text' onClick={this.openModal}>
@@ -64,7 +74,7 @@ export default class Contact extends React.Component {
         <Modal
           isOpen={this.state.isModalOpen}
           onRequestClose={this.closeModal}
-          style={customStyles}
+          style={modalCustomStyles}
         >
           <div className='modal-header'>
             <div className='modal-title'>CONTACT ME</div>
@@ -76,17 +86,24 @@ export default class Contact extends React.Component {
               <input type='hidden' name='contact_number' />
               <label>
                 Name
-                <input type='text' name='user_name' className='form-name' />
+                <input type='text' name='user_name' className='form-name' required/>
               </label>
               <label>
                 Email
-                <input type='email' name='user_email' className='form-email' />
+                <input type='email' name='user_email' className='form-email' reuired/>
               </label>
               <label>
                 Message
-                <textarea name='message' className='form-text' />
+                <textarea name='message' className='form-text' required/>
               </label>
-              <input type='submit' value='Send' className='form-submit' />
+              <input
+                type='submit'
+                value='Send'
+                className='form-submit'
+                style={sendCustomStyles}
+                onMouseOver={this.onUserMouseOver}
+                onMouseOut={this.onUserMouseOver}
+              />
             </form>
           </div>
         </Modal>

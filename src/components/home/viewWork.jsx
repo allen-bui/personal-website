@@ -28,8 +28,8 @@ export default class ViewWork extends React.Component {
       <button
         style={style}
         className='view-work-button'
-        onMouseEnter={this.onUserHover}
-        onMouseLeave={this.onUserHover}
+        onMouseOver={this.onUserHover}
+        onMouseOut={this.onUserHover}
       >
         View my work
       </button>
