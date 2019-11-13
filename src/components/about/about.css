@@ -17,9 +17,10 @@
 }
 
 .my-photo {
-  margin: 15%;
+  margin: 15% 30%;
   width: 70%;
-  height: 70%;
+  border: 2px solid #aaa;
+  box-shadow: 0 1px 10px -1px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.04), 0 1px 0 rgba(0,0,0,0.04);
 }
 
 .position-title {

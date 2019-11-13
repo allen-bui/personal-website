@@ -1,4 +1,4 @@
-const airbnb = {
+const blog = {
   images: [
     { src: 'https://i.imgur.com/bJWz5GQ.gif' },
     { src: 'https://i.imgur.com/RawWL8X.gif' },
@@ -19,4 +19,4 @@ const airbnb = {
   ultrices sagittis orci a scelerisque.`,
 };
 
-export default airbnb;
+export default blog;

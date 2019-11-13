@@ -11,7 +11,7 @@ const About = () => {
       <div className='about-me-grid-container'>
         <div>
           <img
-            src='https://i.pinimg.com/originals/76/11/73/761173b79751f1f8a87681e676af7348.jpg'
+            src='https://i.imgur.com/QWXqdQz.jpg'
             className='my-photo'
             alt=''
           />
