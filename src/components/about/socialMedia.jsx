@@ -25,7 +25,7 @@ const SocialMedia = () => {
           className='contact-icon'
         />
       </a>
-      <a target='_blank' rel='noopener noreferrer' href='https://twitter.com'>
+      <a target='_blank' rel='noopener noreferrer' href='http://twitter.com/allen_bui_codes'>
         <img
           src='https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-512.png'
           alt='twitter'
