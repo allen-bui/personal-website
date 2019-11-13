@@ -56,9 +56,9 @@
 .contact-box > .contact-button > .contact-text {
   background-color: #000;
   color: #fff;
-  letter-spacing: 0.1em;
-  font-size: 1.25em;
-  font-weight: 200;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+  font-weight: 300;
   height: 80%;
   width: 100%;
   display: flex;
