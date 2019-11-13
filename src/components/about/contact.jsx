@@ -5,8 +5,8 @@ import './contact.css';
 
 const customStyles = {
   content: {
-    height: '50%',
-    width: '50%',
+    height: '30em',
+    width: '25em',
     top: '50%',
     left: '50%',
     right: 'auto',
@@ -67,19 +67,25 @@ export default class Contact extends React.Component {
           style={customStyles}
         >
           <div className='modal-header'>
-            <div className='modal-title'>Contact Me</div>
+            <div className='modal-title'>CONTACT ME</div>
             <form
               id='contact-form'
               onSubmit={this.sendEmail}
               className='contact-form'
             >
               <input type='hidden' name='contact_number' />
-              <label>Name</label>
-              <input type='text' name='user_name' className='form-name' />
-              <label>Email</label>
-              <input type='email' name='user_email' className='form-email' />
-              <label>Message</label>
-              <textarea name='message' className='form-text' />
+              <label>
+                Name
+                <input type='text' name='user_name' className='form-name' />
+              </label>
+              <label>
+                Email
+                <input type='email' name='user_email' className='form-email' />
+              </label>
+              <label>
+                Message
+                <textarea name='message' className='form-text' />
+              </label>
               <input type='submit' value='Send' className='form-submit' />
             </form>
           </div>
