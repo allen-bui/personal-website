@@ -36,8 +36,8 @@ class Portfolio extends React.Component {
               PROJECTS:
               <select className='project-name' onChange={this.getCurrentValue}>
                 <option>Airbnb Clone</option>
+                <option>Personal Blog Project</option>
                 <option>Amazon System Design</option>
-                <option>Blog Login System</option>
               </select>
             </div>
           </div>
@@ -54,8 +54,8 @@ class Portfolio extends React.Component {
               PROJECTS:
               <select className='project-name' onChange={this.getCurrentValue}>
                 <option>Airbnb Clone</option>
+                <option>Personal Blog Project</option>
                 <option>Amazon System Design</option>
-                <option>Blog Login System</option>
               </select>
             </div>
           </div>
@@ -63,7 +63,7 @@ class Portfolio extends React.Component {
         </div>
       );
     }
-    else if (this.state.projectName === 'Blog Login System') {
+    else if (this.state.projectName === 'Personal Blog Project') {
       return (
         <div>
           <Header />
@@ -72,8 +72,8 @@ class Portfolio extends React.Component {
               PROJECTS:
               <select className='project-name' onChange={this.getCurrentValue}>
                 <option>Airbnb Clone</option>
+                <option>Personal Blog Project</option>
                 <option>Amazon System Design</option>
-                <option>Blog Login System</option>
               </select>
             </div>
           </div>

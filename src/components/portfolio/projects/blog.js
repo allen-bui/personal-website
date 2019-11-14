@@ -1,9 +1,9 @@
 const blog = {
   images: [
-    { src: 'https://i.imgur.com/bJWz5GQ.gif' },
-    { src: 'https://i.imgur.com/RawWL8X.gif' },
-    { src: 'https://i.imgur.com/TZkjSxn.gif' },
-    { src: 'https://i.imgur.com/6Pq3VFw.gif' },
+    { src: 'https://i.imgur.com/Hb2SxuV.gif' },
+    { src: 'https://i.imgur.com/tzDdjwl.gif' },
+    { src: 'https://i.imgur.com/chbjpX3.gif' },
+    { src: 'https://i.imgur.com/zxeI9Q8.gif' },
   ],
   title: 'PERSONAL BLOG',
   url: 'https://github.com/allen-bui/personal-blog-design',
