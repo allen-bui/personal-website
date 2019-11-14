@@ -48,6 +48,10 @@
   letter-spacing: 0.1em;
 }
 
+.text-description {
+  line-height: 2em;
+}
+
 .checkout-box {
   width: 100%;
   height: 10%;

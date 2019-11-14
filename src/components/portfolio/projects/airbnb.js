@@ -8,30 +8,8 @@ const airbnb = {
   title: 'RECREATING AIRBNB',
   url: 'https://airbnb-project-clone-allen-bui.netlify.com/',
   github: 'https://github.com/allen-bui/airbnb-project-clone',
-  descriptionOne: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec
-  ultrices dui sapien eget mi proin. Posuere sollicitudin aliquam
-  ultrices sagittis orci a scelerisque. Pellentesque diam volutpat
-  commodo sed egestas egestas fringilla phasellus faucibus. Sed cras
-  ornare arcu dui vivamus arcu felis bibendum ut. Odio aenean sed
-  adipiscing diam donec adipiscing. Vitae justo eget magna fermentum
-  iaculis eu non diam. Feugiat nisl pretium fusce id velit ut tortor. In
-  est ante in nibh. Vel elit scelerisque mauris pellentesque pulvinar
-  pellentesque habitant morbi tristique. Massa sapien faucibus et
-  molestie ac feugiat sed lectus vestibulum. Tristique senectus et netus
-  et malesuada fames ac turpis egestas.`,
-  descriptionTwo: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec
-  ultrices dui sapien eget mi proin. Posuere sollicitudin aliquam
-  ultrices sagittis orci a scelerisque. Pellentesque diam volutpat
-  commodo sed egestas egestas fringilla phasellus faucibus. Sed cras
-  ornare arcu dui vivamus arcu felis bibendum ut. Odio aenean sed
-  adipiscing diam donec adipiscing. Vitae justo eget magna fermentum
-  iaculis eu non diam. Feugiat nisl pretium fusce id velit ut tortor. In
-  est ante in nibh. Vel elit scelerisque mauris pellentesque pulvinar
-  pellentesque habitant morbi tristique. Massa sapien faucibus et
-  molestie ac feugiat sed lectus vestibulum. Tristique senectus et netus
-  et malesuada fames ac turpis egestas.`,
+  description: `This project is a recreation of Airbnb's item description page for their new Airbnb PLUS program. The goal was to familiarize myself with the React framework and styling components in CSS. I ran into many challenges with this project, but I learned a ton reading through documentation, Google searches, and Stack Overflow. Check out the project by clicking below and playing with the website yourself, or click the Github icon to see the repo. I hope you like it, any feedback is greatly appreciated!`,
+  techStack: `React, Node.js, Express, MySQL, Unsplash API, AWS Elastic Beanstalk`,
 };
 
 export default airbnb;
