@@ -16,6 +16,10 @@
   grid-column-end: 3;
 }
 
+.about-me-description {
+  line-height: 2em;
+}
+
 .my-photo {
   margin: 15% 30%;
   width: 70%;

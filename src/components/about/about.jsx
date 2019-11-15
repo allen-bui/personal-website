@@ -8,47 +8,40 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className='about-me-grid-container'>
+      <div className="about-me-grid-container">
         <div>
           <img
-            src='https://i.imgur.com/QWXqdQz.jpg'
-            className='my-photo'
-            alt=''
+            src="https://i.imgur.com/QWXqdQz.jpg"
+            className="my-photo"
+            alt=""
           />
         </div>
-        <div className='text-block'>
-          <div className='position-title'>SOFTWARE ENGINEER</div>
+        <div className="text-block">
+          <div className="position-title">SOFTWARE ENGINEER</div>
           <br />
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec
-            ultrices dui sapien eget mi proin. Posuere sollicitudin aliquam
-            ultrices sagittis orci a scelerisque. Pellentesque diam volutpat
-            commodo sed egestas egestas fringilla phasellus faucibus. Sed cras
-            ornare arcu dui vivamus arcu felis bibendum ut. Odio aenean sed
-            adipiscing diam donec adipiscing. Vitae justo eget magna fermentum
-            iaculis eu non diam. Feugiat nisl pretium fusce id velit ut tortor.
-            In est ante in nibh. Vel elit scelerisque mauris pellentesque
-            pulvinar pellentesque habitant morbi tristique. Massa sapien
-            faucibus et molestie ac feugiat sed lectus vestibulum. Tristique
-            senectus et netus et malesuada fames ac turpis egestas.
+          <div className="about-me-description">
+            Hi there! My name is Allen and I'm a software engineer in the Bay
+            Area who enjoys tinkering with and building web applications. I get
+            excited when I come across a simple yet beautifully designed
+            website, often wondering how the heck it was built. I'm a Hack
+            Reactor graduate, where I learned the fundamental skills to to be a
+            full-stack developer. However, my passion lies in front-end
+            development because I have a knack for visuals and enjoy making
+            designs come to life. Prior to engineering, my background
+            was in data analytics at two tech giants: Salesforce and LinkedIn, where I coded
+            executive facing data visualizations, wrote Python scripts to
+            automate and process millions of rows of data, and mentored my interns
+            at the time on how to code in Python and SAQL.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec
-            ultrices dui sapien eget mi proin. Posuere sollicitudin aliquam
-            ultrices sagittis orci a scelerisque. Pellentesque diam volutpat
-            commodo sed egestas egestas fringilla phasellus faucibus. Sed cras
-            ornare arcu dui vivamus arcu felis bibendum ut. Odio aenean sed
-            adipiscing diam donec adipiscing. Vitae justo eget magna fermentum
-            iaculis eu non diam. Feugiat nisl pretium fusce id velit ut tortor.
-            In est ante in nibh. Vel elit scelerisque mauris pellentesque
-            pulvinar pellentesque habitant morbi tristique. Massa sapien
-            faucibus et molestie ac feugiat sed lectus vestibulum. Tristique
-            senectus et netus et malesuada fames ac turpis egestas.
+            Outside of programming, you'll find me playing fetch with my dog Ollie,
+            playing tennis, drinking boba tea, or getting lost reading
+            Wikipedia; often starting at one subject and ending on something
+            completely unrelated.
+            <br />
           </div>
           <br />
-          <div className='contact-box'>
+          <div className="contact-box">
             <Contact />
             <SocialMedia />
           </div>
