@@ -20,7 +20,7 @@ const About = () => {
           <div className="position-title">SOFTWARE ENGINEER</div>
           <br />
           <div className="about-me-description">
-            Hi there! I'm a software engineer in the Bay Area who enjoys
+            Hi there! My name is Allen, I'm a software engineer in the Bay Area who enjoys
             tinkering with and building web applications. I get excited when I
             come across a simple yet beautifully designed website, often
             wondering how the heck it was built. I'm a Hack Reactor graduate,
@@ -34,15 +34,16 @@ const About = () => {
             to code in Python and SAQL.
             <br />
             <br />
-            I'm currently looking for work as a front-end developer, studying
-            data structures and algorithms in the interim. I'd love to hear from
-            you if you have a job opportunity available!
-            <br />
-            <br />
             Outside of programming, you'll find me playing fetch with my dog
             Ollie, playing tennis, doing landscape photography, drinking boba
             tea, or getting lost reading Wikipedia; often starting at one
             subject and ending on something completely unrelated.
+            <br />
+            <br />
+            I'm currently looking for work as a front-end developer, studying
+            data structures and algorithms in the interim. Thanks for taking the
+            time to visit, I'd love to hear from you regarding job
+            opportunities, website feedback, or anything at all!
             <br />
           </div>
           <br />

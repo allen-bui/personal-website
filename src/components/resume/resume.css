@@ -18,8 +18,9 @@
   margin: 0em auto;
   width: 50%;
   height: auto;
-  border: 2px solid rgba(0,0,0,0.2);
-  box-shadow: 0 1px 10px -1px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.04), 0 1px 0 rgba(0,0,0,0.04);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.04),
+    0 1px 0 rgba(0, 0, 0, 0.04);
 }
 
 .resume-title {
@@ -29,4 +30,51 @@
   font-family: 'Raleway', sans-serif;
   font-size: 2.5em;
   color: #000;
+}
+
+@media only screen and (min-width: 300px) {
+
+  .resume-title {
+    display: grid;
+    justify-content: center;
+    margin: 1em 0em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #000;
+  }
+
+  .resume-image {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 0em auto;
+    width: 95%;
+    height: auto;
+    border: 2px solid rgba(0,0,0,0.2);
+    box-shadow: 0 1px 10px -1px rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.04), 0 1px 0 rgba(0,0,0,0.04);
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .resume-title {
+    display: grid;
+    justify-content: center;
+    margin: 1em 0em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    color: #000;
+  }
+
+  .resume-image {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 0em auto;
+    width: 50%;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 10px -1px rgba(0, 0, 0, 0.2),
+      0 0 0 1px rgba(0, 0, 0, 0.04), 0 1px 0 rgba(0, 0, 0, 0.04);
+  }
 }
