@@ -20,24 +20,29 @@ const About = () => {
           <div className="position-title">SOFTWARE ENGINEER</div>
           <br />
           <div className="about-me-description">
-            Hi there! My name is Allen and I'm a software engineer in the Bay
-            Area who enjoys tinkering with and building web applications. I get
-            excited when I come across a simple yet beautifully designed
-            website, often wondering how the heck it was built. I'm a Hack
-            Reactor graduate, where I learned the fundamental skills to to be a
-            full-stack developer. However, my passion lies in front-end
-            development because I have a knack for visuals and enjoy making
-            designs come to life. Prior to engineering, my background
-            was in data analytics at two tech giants: Salesforce and LinkedIn, where I coded
-            executive facing data visualizations, wrote Python scripts to
-            automate and process millions of rows of data, and mentored my interns
-            at the time on how to code in Python and SAQL.
+            Hi there! I'm a software engineer in the Bay Area who enjoys
+            tinkering with and building web applications. I get excited when I
+            come across a simple yet beautifully designed website, often
+            wondering how the heck it was built. I'm a Hack Reactor graduate,
+            where I learned the fundamental skills to to be a full-stack
+            developer. My passion however lies in front-end development because
+            I enjoy making designs come to life and have a knack for visuals.
+            Prior to engineering, my background was in data analytics at two
+            tech giants: Salesforce and LinkedIn, where I coded executive facing
+            data visualizations, wrote Python scripts to automate and process
+            millions of rows of data, and mentored my interns at the time on how
+            to code in Python and SAQL.
             <br />
             <br />
-            Outside of programming, you'll find me playing fetch with my dog Ollie,
-            playing tennis, drinking boba tea, or getting lost reading
-            Wikipedia; often starting at one subject and ending on something
-            completely unrelated.
+            I'm currently looking for work as a front-end developer, studying
+            data structures and algorithms in the interim. I'd love to hear from
+            you if you have a job opportunity available!
+            <br />
+            <br />
+            Outside of programming, you'll find me playing fetch with my dog
+            Ollie, playing tennis, doing landscape photography, drinking boba
+            tea, or getting lost reading Wikipedia; often starting at one
+            subject and ending on something completely unrelated.
             <br />
           </div>
           <br />
