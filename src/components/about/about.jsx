@@ -17,10 +17,10 @@ const About = () => {
           />
         </div>
         <div className="text-block">
-          <div className="position-title">SOFTWARE ENGINEER</div>
+          <div className="position-title">FRONT-END DEVELOPER</div>
           <br />
           <div className="about-me-description">
-            Hi there! My name is Allen, I'm a software engineer in the Bay Area who enjoys
+            Hi there! My name is Allen, I'm a front-end developer in the Bay Area who enjoys
             tinkering with and building web applications. I get excited when I
             come across a simple yet beautifully designed website, often
             wondering how the heck it was built. I'm a Hack Reactor graduate,
