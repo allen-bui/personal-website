@@ -77,7 +77,7 @@ class Welcome extends React.Component {
             <span
               className='txt-rotate'
               data-period='2000'
-              data-rotate='[ " front-end developer.", " designer.", " dog lover.", " photographer.", " tennis player" ]'
+              data-rotate='[ " front-end developer.", " designer.", " dog lover.", " photographer.", " tennis player." ]'
             ></span>
           </h1>
           <ViewWork />
