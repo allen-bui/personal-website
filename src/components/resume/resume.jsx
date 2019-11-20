@@ -15,7 +15,7 @@ const Resume = () => {
           className='resume-link'
         >
           <img
-            src='https://i.imgur.com/Ad8ZQMl.png'
+            src='https://i.imgur.com/ZXbv6ou.png'
             alt='resume'
             className='resume-image'
           />
