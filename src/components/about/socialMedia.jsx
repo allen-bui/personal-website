@@ -28,7 +28,7 @@ const SocialMedia = () => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="http://twitter.com/allen_bui_codes"
+        href="http://twitter.com/_allen_bui"
       >
         <img
           src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-twitter-512.png"
