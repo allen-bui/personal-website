@@ -4,8 +4,6 @@ This is a personal portfolio I built to host all my projects. The design and cod
 
 Check out https://allenbui.com to take a peek.
 
-This is my very own personal website, built from scratch using React, EmailJS, Carousel, and CSS.
-
 # Tech Stack
 
 * JavaScript
