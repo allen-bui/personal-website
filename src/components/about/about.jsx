@@ -32,8 +32,7 @@ const About = () => {
             starting at one subject and ending on something completely unrelated.
             <br />
             <br />
-            I'm an incoming front-end developer at Movable Ink and am currently <em>not</em> looking for new
-            opportunities.
+            I'm currently a front-end developer at Movable Ink, feel free to connect with me!
             <br />
           </div>
           <br />
